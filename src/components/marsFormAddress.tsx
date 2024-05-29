@@ -51,14 +51,16 @@ export default function MarsFormAddress() {
               type="text"
               placeholder="Digite o Lote do local"
             />
-            <button className="bg-red-600	md:ml-3 hover:bg-red-700 mt-5 mb-5 text-white font-bold py-2 px-4 rounded">
-              <Link
-                href="/delivery-items"
+            <button
+              onSubmit={handleSubmit(onSubmit)}
+              className="bg-red-600	md:ml-3 hover:bg-red-700 mt-3 mb-0 text-white font-bold py-2 px-4 rounded"
+            >
+              <a
                 className="block text-white font-medium py-2 px-3 md:p-0"
                 aria-current="page"
               >
                 Cadastrar
-              </Link>
+              </a>
             </button>
           </form>
         </div>
