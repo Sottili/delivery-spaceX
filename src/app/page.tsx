@@ -21,6 +21,15 @@ export default function Home() {
             <br /> A SpaceX Delivery te leva até lá!
           </h2>
           <div className="flex w-full flex-wrap mt-8">
+            <button className="bg-red-600	mr-3 hover:bg-red-700 mb-2 md:mb-0 text-white font-bold py-2 px-4 rounded">
+              <Link
+                href="/delivery-items"
+                className="block text-white font-medium py-2 px-3 md:p-0"
+                aria-current="page"
+              >
+                Delivery Items
+              </Link>
+            </button>
             <button className="bg-red-600	mr-3 hover:bg-red-700 text-white font-bold py-2 px-4 rounded">
               <Link
                 href="/address-register"
@@ -28,15 +37,6 @@ export default function Home() {
                 aria-current="page"
               >
                 Register Address
-              </Link>
-            </button>
-            <button className="bg-red-600	ml-3 hover:bg-red-700 text-white font-bold py-2 px-4 rounded">
-              <Link
-                href="/delivery-items"
-                className="block text-white font-medium py-2 px-3 md:p-0"
-                aria-current="page"
-              >
-                Delivery Items
               </Link>
             </button>
           </div>

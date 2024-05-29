@@ -55,10 +55,10 @@ const EarthFormAddress = () => {
             Você deseja cadastrar um endereço da Terra?
           </h1>
           <h3 className=" md:text-2xl font-semibold">
-            Se sim, preenche o formulário a seguir para cadastrar seu endereço:
+            Se sim, preencha o formulário a seguir para cadastrar seu endereço:
           </h3>
         </div>
-        <div className="flex flex-col items-center mt-8">
+        <div className="flex w-3/4 flex-col items-center mt-8">
           <form
             className="flex w-full flex-col pb-5"
             onSubmit={handleSubmit(onSubmit)}
@@ -156,7 +156,7 @@ const EarthFormAddress = () => {
                   className="block text-white font-medium py-2 px-3 md:p-0"
                   aria-current="page"
                 >
-                  Cadastrar endereço
+                  Cadastrar
                 </Link>
               </button>
             )}
