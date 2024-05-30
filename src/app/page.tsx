@@ -23,11 +23,11 @@ export default function Home() {
           <div className="flex w-full flex-wrap mt-8">
             <button className="bg-red-600	mr-3 hover:bg-red-700 mb-2 md:mb-0 text-white font-bold py-2 px-4 rounded">
               <Link
-                href="/delivery-items"
+                href="/my-address"
                 className="block text-white font-medium py-2 px-3 md:p-0"
                 aria-current="page"
               >
-                Delivery Items
+                Meu Endereço
               </Link>
             </button>
             <button className="bg-red-600	mr-3 hover:bg-red-700 text-white font-bold py-2 px-4 rounded">
@@ -36,7 +36,7 @@ export default function Home() {
                 className="block text-white font-medium py-2 px-3 md:p-0"
                 aria-current="page"
               >
-                Register Address
+                Cadastrar Endereço
               </Link>
             </button>
           </div>

@@ -36,7 +36,6 @@ export default function Navbar() {
           aria-expanded="false"
           onClick={handleOpen}
         >
-          <span className="sr-only">Open main menu</span>
           <svg
             className="w-5 h-5"
             aria-hidden="true"
@@ -64,7 +63,7 @@ export default function Navbar() {
                 className="block text-white font-medium py-2 px-3 md:p-0"
                 aria-current="page"
               >
-                Home
+                Inicio
               </Link>
             </li>
             <li>
@@ -73,7 +72,7 @@ export default function Navbar() {
                 className="block text-white font-medium py-2 px-3 md:p-0"
                 aria-current="page"
               >
-                Register
+                Cadastrar Endereço
               </Link>
             </li>
             <li>
@@ -81,17 +80,7 @@ export default function Navbar() {
                 href="/my-address"
                 className="block text-white py-2 px-3 md:p-0"
               >
-                My Address
-              </Link>
-            </li>
-          </ul>
-          <ul className="font-medium md:px-8 flex flex-col md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0">
-            <li>
-              <Link
-                href="/delivery-items"
-                className="block text-white py-2 px-3 md:p-0"
-              >
-                Delivery Items
+                Meu Endereço
               </Link>
             </li>
           </ul>

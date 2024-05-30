@@ -36,7 +36,7 @@ export default function MarsFormAddress() {
             onSubmit={handleSubmit(onSubmit)}
           >
             <label className="text-white text-left">
-              Nome da Fábrica ou Local:
+              Nome da Fábrica/Local:
             </label>
             <input
               {...register("localName")}
